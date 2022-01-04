@@ -1,0 +1,332 @@
+*
+{
+    margin: 0px;
+}
+body
+{
+    font-weight: 100;
+    font-family: "Roboto",sans-serif;
+    
+}
+nav {
+    width: 100%;
+    height: 32px;
+    background-color: lightblue;
+    text-align: center;
+    position: sticky;      /*przyklejenie menu do góry strony */
+    top: 0;
+    font-weight: 500;    
+    font-size: 15px;
+}
+li.roz
+{
+    width: 150px;
+
+}
+
+a
+{
+    display: block;
+    color: white;
+}
+li.roz a:hover
+{
+color: rgb(238, 238, 113);
+transition: 0.75s;
+}
+
+ol.roz
+{
+    list-style-type: none;
+}
+ol.roz ul.roz
+{
+    background-color: rgb(85, 85, 161);
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+ul.roz li.roz
+{
+    background-color: rgb(85, 85, 161);
+   width: 100px;
+}
+ ul.roz li.roz:hover
+{
+    text-shadow: -1px -1px 10px rgb(66, 60, 0);
+    transition: 0.5s;
+}
+ol.roz > li.roz:hover > ul.roz
+{
+  display:block;
+  list-style-type:none;
+}
+li.roz
+{
+    background-color: lightblue;
+    height: 25px;
+    width:170px;
+    padding-bottom: 5px;
+    color: white;   
+}
+ol.roz li.roz
+{
+ float: left;
+}
+ul.roz li.roz
+{
+    width: 170px;
+    margin-left: -1px;
+    border-bottom: 1px solid black;
+}
+a{
+    display: block;
+    text-decoration: none;
+    list-style-type:none;
+}
+
+#list
+{
+    margin-top: 13px;
+    color: white;
+}
+
+section
+{
+    width: 98%;
+    height: 3000px;
+    background-color: wheat;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+.projekt1
+{
+    height: 3000px;
+}
+.menu
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@media (max-width:600px)
+{
+    li.roz
+    {
+        width: 100px;
+        font-size: 15px;
+    }
+    ul.roz li.roz
+    {
+        width: 100px;
+        font-size: 13px;
+    }
+}
+@media (max-width:400px)
+{
+    li.roz
+    {
+        width: 70px;
+        font-size: 10px;
+    }
+    ul.roz li.roz
+    {
+        width: 70px;
+        font-size: 10px;
+    }
+    #list
+    {
+        margin-top: 18.5px;
+        color: white;
+    }
+
+}
+
+
+.link
+{
+    display: inline;
+    color: black;
+    text-decoration: underline;
+}
+.link:hover
+{
+    text-shadow: 11px -5px 6px rgba(150, 150, 150, 1);
+}
+
+
+p
+{
+    padding: 5px;
+}
+kbd
+{
+    background-color: lightgrey;
+    border-radius: 20%;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+@media (max-width:710px)
+{
+    
+    #obraz4
+    {
+        height: 100px;
+    }
+    img.pobrac2
+    {
+        width:347.5px ;
+        height:80.5px;
+    }
+    img.pobrac4
+    {
+        width:294.5px;
+        height:40px;
+    }
+    img.obraz2
+   {
+    width:288px;
+    height:130.5px;
+   } 
+   img.obraz4
+   {
+       width:400px;
+       height:114px;
+   }
+   
+}
+@media (max-width:500px)
+{
+img.pobrac1
+{
+    width: 221px;
+    height: 68px;
+    
+}
+
+img.pobrac2
+{
+  width:310px;
+  height:70px;  
+}
+img.pobrac3
+{
+width:222px;
+height:92px;
+}
+img.obraz3
+{
+width:285px;
+height:32.5px;
+
+}
+img.obraz4
+{
+    width:300px;
+    height: 86px;
+}
+
+}
+
+.pobrac1
+{
+    width:442px;
+   height:135.5px; 
+}
+.pobrac3
+{
+width:444px;
+height:184px;
+}
+.obraz4
+{
+     width:600px; 
+     height:171.5px 
+    
+}
+
+/* 
+Początki.html */
+.crafting
+{
+    height: 150px;
+    width: 275px;
+}
+.inne
+{
+    width: 222px;
+    height: 171.5px;
+}
+@media (max-height:3000px)
+{
+    section
+    {
+        height: 100%;
+    }
+}
+tr,td,th,table
+{
+    border: 1px black solid;
+    border-collapse: collapse;
+
+}
+@media (max-width:640px )
+{
+   img.poczatek1
+   {
+       width:252px;
+       height:74px;
+
+   }
+   img.poczatek2
+   {
+    width:311.5px;
+    height:143.5px;
+   }
+   
+   img.poczatek3
+{
+width:271.5px;
+height:132px;
+}  
+img.poczatek4
+{
+width:283.5px;
+height:187px;
+}
+img.poczatek5
+{
+    width: 220px;
+    height: 90px;
+}
+
+}
+.poczatek1
+{
+width:504px;
+height:148.5px;
+}
+
+.poczatek2
+{
+   width: 623.5px; 
+   height:287px;
+}
+.poczatek3
+{
+width:543px;
+height:264px;
+}
+.poczatek4
+{
+width:567.5px;
+height:374px;
+}
+.poczatek5
+{
+    width:440px;
+    height: 180px;
+}
